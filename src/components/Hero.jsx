@@ -22,9 +22,11 @@ const Hero = () => {
       <div className="container relative" ref={parallaxRef}>
         <div className="relative z-1 max-w-[62rem] mx-auto text-center mb-[4rem] md:mb-20 lg:mb-[6rem]">
           <h1 className="h1 mb-6">
-            Explore the Possibilities of AI Chatting with <br />
+            This is the new reality
+            <br />
+            AI Wages War against Humans <br />
             <span className="inline-block  relative">
-              Brainwave
+              Devin
               <img
                 width={624}
                 height={28}
@@ -39,7 +41,7 @@ const Hero = () => {
             a similique neque rem.
           </p>
           <Button href="#pricing" white>
-            Get Started
+            Join the war
           </Button>
         </div>
         <div className="relative max-w-[23rem] md:max-w-5xl mx-auto xl:mb-24">
@@ -76,7 +78,7 @@ const Hero = () => {
           <div className="absolute -top-[54%] left-1/2 w-[234%] -translate-x-1/2 md:-top-[46%] md:w-[138%] lg:-top-[104%]">
             <img
               src={heroBackground}
-              className="w-full"
+              className="w-full opacity-50"
               width={1440}
               height={1800}
               alt="hero"

@@ -37,7 +37,7 @@ const Header = () => {
             src={brainwave}
             width={190}
             height={40}
-            className="block w-[12rem] xl:mr-8"
+            className="block w-[4rem] xl:mr-8"
             alt="brainwave"
           />
         </a>
